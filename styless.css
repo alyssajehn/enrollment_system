@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+#forms {
+    display: none;
+}
+
+.form-section {
+    display: none;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+}
